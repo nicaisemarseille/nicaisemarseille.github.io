@@ -1,8 +1,13 @@
 ---
 permalink: /projects/
-title: "About"
+title: "Projects"
 ---
+Beyond my research activities, I have also worked on a number of non-academic projects, including a lot of group projects, some of which were carried out in collaboration with companies.
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+## Forecasting CO2 Emissions in Real Estate - In collaboration with BNP Paribas, France
+I chose to participate in this project alongside my Machine Learning course during my first year of master’s studies, as it provided a concrete and applied setting in which to implement the concepts we learned in class. The work lasted three months, with weekly meetings with data scientists from BNP Paribas. The project  was conducted in a 4-person team, the focus being on the study of times series in order to forecast the future CO2 emissions by real estate property category. Tasks include data preprocessing, feature engineering, training models such as ARIMA, LSTM and PROPHET and performance benchmarking.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## Optimization of an electromagnetic anechoic chamber - MICS laboratory, CentraleSupélec, france
+With a given wave propagation PDE model in a chamber, the goal was to minimize the energy of an electromagnetic wave in the chamber through determining the optimal distribution of absorbing material. The work involved both the theoretical study of the model (well-posedness of the PDE system) and the implementation of numerical algorithms; finite elements for solving the PDEs, and gradient descent in Hilbert spaces to determine the optimal distribution of absorbing lmaterial.
+
+## Detection of anomalies in an IOT network - In collaboration with Bouygues-Télécom, France
