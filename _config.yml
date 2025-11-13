@@ -5,7 +5,7 @@ description: >-
   Interested in Machine Learning, Optimal Transport, and Mathematical Modeling.
 linkedin_username: maxime-nicaise-b4312b291
 github_username: nicaisemarseille
-search: true
+search: false
 
 # Build settings
 markdown: kramdown
@@ -19,7 +19,6 @@ include:
 plugins:
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -46,9 +45,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/maxime-nicaise-b4312b291/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:maxime.nicaise@student-cs.fr"
 
 defaults:
   # _pages
