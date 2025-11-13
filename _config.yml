@@ -26,7 +26,7 @@ plugins:
 author:
   name   : "Maxime Nicaise"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "MSc student in Applied Mathematics at CentraleSupélec (Université Paris-Saclay). Passionate about applied math, machine learning, and optimal transport theory."
+  bio    : "MSc student in Applied Mathematics at CentraleSupélec (Université Paris-Saclay). Passionate about Applied Math, Machine Learning, and Optimal Transport theory."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
