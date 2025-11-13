@@ -10,6 +10,7 @@ search: false
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: air   # 👈 thème clair et académique
 permalink: /:categories/:title/
 timezone: Europe/Paris
 
@@ -36,7 +37,7 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/nicaisemarseille"
-     - label: "CV (PDF)"
+    - label: "CV (PDF)"
       icon: "fas fa-fw fa-file-pdf"
       url: "/assets/files/cv_english_prive-5.pdf"
 
@@ -50,7 +51,6 @@ footer:
       url: "https://www.linkedin.com/in/maxime-nicaise-b4312b291/"
 
 defaults:
-  # _pages
   - scope:
       path: "_pages"
       type: pages
@@ -65,5 +65,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# 🚫 Supprime tout le flux RSS et le lien "Feed"
 atom_feed:
   hide: true
+show_excerpts: false
+feed: false
