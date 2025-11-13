@@ -40,7 +40,7 @@ author:
     - label: "CV (PDF)"
       icon: "fas fa-fw fa-file-pdf"
       url: "/assets/files/cv_english_prive-5.pdf"
-    - label: "maxime.nicaise [at] student-cs [dot] fr"
+    - label: "maxime.nicaise [at] <br> student-cs [dot] fr"
       icon: "fas fa-fw fa-envelope"
       url: "#"
 
