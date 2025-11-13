@@ -6,5 +6,5 @@ permalink: /
 ---
 
 Welcome!  
-I'm **Maxime Nicaise**, MSc student in Applied Mathematics at *CentraleSupélec* (Université Paris-Saclay).  
-My research interests include *Machine Learning*, *Optimal Transport*, and *Mathematical Modeling*.
+My name is **Maxime Nicaise**, I am a MSc student in Applied Mathematics at *CentraleSupélec* (Université Paris-Saclay).  
+My interests include *Optimal Transport*, *Machine Learning*, and *Statistics*. You can explore my work in the sections above.
