@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-
+## Research
 My main research interests untiel now have revolved around various fields of applied mathematics, and I am now orienting myself more towards **Machine Learning**.
 
 ## Current Work - Internship at INRIA, Sophia-Antipolis, France
