@@ -18,7 +18,7 @@ I met my advisor, Anna Rozanova-Pierrat, of the MICS laboratory during my first 
 
 
 ## PDE/Modeling project - CentraleSupélec, France
-This project was carried out during the PDE course, in my first year of studies at CentraleSupélec. The teachers offered the opportunity to the willing students to choose a problem of their own, model it with PDEs, and then apply the methods seen in class to solve it. I chose to model the growth of a spy network using a system of partial differential equations, established its well-posedness, and analyzed the influence of various parameters through numerical (finite elements) solutions.
+This project was carried out during the PDE course, in my first year of studies at CentraleSupélec. The teachers offered the opportunity to the willing students to choose a problem of their own, model it with PDEs, and then apply the methods seen in class to solve it. I chose to model the growth of a spy network using a system of partial differential equations, established its well-posedness, and analyzed the influence of various parameters through numerical (finite elements) solutions. <br><br>
 [Project report (PDF)](/assets/rapport_maxime_nicaise_projet_compagnon-1.pdf)
 [Jupyter Notebook](https://github.com/nicaisemarseille/projet_compagnon)
 
