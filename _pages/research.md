@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
-My main research interests untiel now have revolved around various fields of applied mathematics, and I am now orienting myself more towards **Machine Learning**.
+My main research interests until now have revolved around various fields of applied mathematics, and I am now orienting myself more towards **Machine Learning**.
 
 ## Current Work - Internship at INRIA, Sophia-Antipolis, France
 <sub> I am currently pursuing a research internship at INRIA, at the intersection of Applied Mathematics, Machine Learning, and Optimal Transport. More precisely, my work focuses on generalizing entropic optimal transport to the broader class of f-divergence–regularized frameworks, with applications in machine learning. The first part of the internship concerns establishing theoretical guarantees, while the second part will focus on designing and implementing efficient algorithms for accelerated computation of Wasserstein distances. A technical INRIA report and hopefully a conference paper are soon to come to present my first results. </sub>
