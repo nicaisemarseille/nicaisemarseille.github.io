@@ -15,5 +15,5 @@ Research conducted under the supervision of Anna Rozanova-Pierrat, of the MICS l
 ## PDE/Modeling project - CentraleSupélec, France
 Work carried out under the joint supervision of Philippe Bouafia and Gabriel Velho. Modeled the growth of a spy network using a system of partial differential equations, established its well-posedness, and analyzed the influence of various parameters through numerical (finite elements) solutions.
 
-## Transport and diffusion of a pollutant within an aquifer, Lycée International de Valbonne, France
+## Transport and diffusion of a pollutant within an aquifer - Lycée International de Valbonne, France
 Measured the coefficients of an existing PDE model through experiments. Developed a discrete numerical model based on the measured coefficients and conducted simulations.
