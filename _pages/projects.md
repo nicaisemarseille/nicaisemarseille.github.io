@@ -17,11 +17,6 @@ Beyond my research activities, I have also worked on a number of non-academic pr
 </sub>
 
 ## Viral Marketing Campaign - In collaboration with Artefact, France
-<sub> During my first year of master studies, as part of a one month project with the data and AI consultancy Artefact, I integrated a four-person team analyzed the viral dynamics of an online climate-awareness campaign created for Greenpeace. The campaign involved a fictional real-estate startup (“Orizon”) promoting seaside homes projected for the year 2100, using IPCC and NASA climate data. Our work consisted in studying how information spread across social networks, identifying key influencers, modeling diffusion patterns, and proposing data-driven strategies to increase the campaign’s reach and impact. The project combined elements of graph analysis, social-network modeling, and practical decision-making for digital marketing. <br> <br> 
-[Project repository](https://github.com/nicaisemarseille/viral_marketing) 
-</sub>
-
-## Viral Marketing Campaign - In collaboration with Artefact, France
 <sub> As part of a one month project with the data and AI consultancy Artefact, I integrated a four-person team analyzed the viral dynamics of an online climate-awareness campaign created for Greenpeace. The campaign involved a fictional real-estate startup (“Orizon”) promoting seaside homes projected for the year 2100, using IPCC and NASA climate data. Our work consisted in studying how information spread across social networks, identifying key influencers, modeling diffusion patterns, and proposing data-driven strategies to increase the campaign’s reach and impact. The project combined elements of graph analysis, social-network modeling, and practical decision-making for digital marketing. Below is the project repository. <br> <br> 
 [Project repository](https://github.com/nicaisemarseille/viral_marketing) 
 </sub>
