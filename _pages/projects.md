@@ -17,3 +17,4 @@ Beyond my research activities, I have also worked on a number of non-academic pr
 </sub>
 
 ## Detection of anomalies in an IOT network - In collaboration with Bouygues-Télécom, France
+<sub> In a 5-person team, I conducted an analysis of a log dataset following a DDoS attack to identify the characteristics of the attack. This project was realized as a conclusion to the Information theory/IOT course I followed during my first year of studies at CentraleSupélec. The tasks included developing machine learning tools for the detection of streaming DDoS attacks. </sub>
