@@ -11,8 +11,9 @@ Beyond my research activities, I have also worked on a number of non-academic pr
 </sub>
 
 ## Optimization of an electromagnetic anechoic chamber - MICS laboratory, CentraleSupélec, france
-<sub> With a given wave propagation PDE model in a chamber, the goal was to minimize the energy of an electromagnetic wave in the chamber through determining the optimal distribution of absorbing material. The work involved both the theoretical study of the model (well-posedness of the PDE system) and the implementation of numerical algorithms; finite elements for solving the PDEs, and gradient descent in Hilbert spaces to determine the optimal distribution of absorbing lmaterial. You can find the slides, report and repository of the project below. <br> <br>
+<sub> With a given wave propagation PDE model in a chamber, the goal was to minimize the energy of an electromagnetic wave in the chamber through determining the optimal distribution of absorbing material. The work involved both the theoretical study of the model (well-posedness of the PDE system) and the implementation of numerical algorithms; finite elements for solving the PDEs, and gradient descent in Hilbert spaces to determine the optimal distribution of absorbing lmaterial. You can find the report and repository of the project below. <br> <br>
 [Project repository](https://github.com/nicaisemarseille/optimisation_chamber) <br>
+[Project report (FR) (PDF)](/assets/report_chamber.pdf)
 </sub>
 
 ## Detection of anomalies in an IOT network - In collaboration with Bouygues-Télécom, France
