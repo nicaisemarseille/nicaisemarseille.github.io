@@ -1,0 +1,90 @@
+---
+# Front matter required so Jekyll processes this file
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* =========================================================
+   Custom polish for nicaisemarseille.github.io
+   Goals: restore normal body size (was wrapped in <sub>),
+          give each entry a clearer card-like rhythm,
+          make links and PDF buttons obvious.
+   ========================================================= */
+
+/* Body copy: comfortable reading width and line-height */
+.page__content {
+  font-size: 1em;
+
+  p, li {
+    line-height: 1.7;
+  }
+
+  /* Section heading: subtle bottom rule + breathing room */
+  h2 {
+    margin-top: 2.6em;
+    margin-bottom: 0.6em;
+    padding-bottom: 0.35em;
+    font-size: 1.35em;
+    font-weight: 600;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  /* First H2 a bit closer to the intro paragraph */
+  > p:first-of-type + h2 {
+    margin-top: 1.8em;
+  }
+
+  /* Meta line: italic, muted — place / date under each H2 */
+  .entry-meta {
+    display: block;
+    margin: -0.35em 0 1em 0;
+    color: #8a8a8a;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  /* Inline links: subtle underline, stronger on hover */
+  a:not(.btn) {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    transition: border-color 0.15s ease, color 0.15s ease;
+
+    &:hover,
+    &:focus {
+      border-bottom-color: currentColor;
+    }
+  }
+
+  /* Compact, tidy button row for PDFs / repos */
+  .btn {
+    margin: 0.25em 0.3em 0.25em 0;
+    padding: 0.5em 0.9em;
+    font-size: 0.82em;
+    letter-spacing: 0.01em;
+    border-radius: 4px;
+
+    .fas, .fab, .far {
+      margin-right: 0.45em;
+    }
+  }
+}
+
+/* Header image (used on About): discreet, not a giant hero */
+.page__hero {
+  margin-bottom: 1.5em;
+
+  .page__hero-image {
+    max-height: 280px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .page__hero-caption {
+    font-size: 0.78em;
+    color: #999;
+  }
+}
