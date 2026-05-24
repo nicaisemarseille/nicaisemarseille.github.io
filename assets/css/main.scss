@@ -125,18 +125,19 @@ search: false
 /* =========================================================
    Footer banner: visual echo of the top banner — same photo,
    strongly darkened, white text overlaid. Frames the page.
+   The wrapper .page__footer carries the photo (full-width);
+   the inner <footer> just holds the content, transparent.
    ========================================================= */
-footer:not(.page__meta) {
+.page__footer {
   position: relative;
   margin-top: 4em;
-  padding: 1.8em 1.5em 1.4em;
   background-color: #0a1928;
   background-image: url('/assets/images/20250805_162452.jpg');
   background-size: cover;
   background-position: center 55%;
   color: rgba(255, 255, 255, 0.9);
-  text-align: center;
   overflow: hidden;
+  border: none;
 
   /* dark overlay so text stays readable on any part of the image */
   &::before {
@@ -145,11 +146,16 @@ footer:not(.page__meta) {
     inset: 0;
     background: rgba(10, 25, 40, 0.72);
     z-index: 0;
+    pointer-events: none;
   }
 
-  > * {
+  footer {
     position: relative;
     z-index: 1;
+    background: transparent;
+    padding: 1.8em 1.5em 1.4em;
+    text-align: center;
+    max-width: 100%;
   }
 
   .page__footer-follow {
