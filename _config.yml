@@ -60,6 +60,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+      header:
+        overlay_image: /assets/images/20250805_162452.jpg
+        overlay_filter: 0.35
 
 category_archive:
   type: liquid

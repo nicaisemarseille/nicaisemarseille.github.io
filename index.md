@@ -1,13 +1,12 @@
 ---
 layout: single
 author_profile: true
-title: "Home"
+title: "Welcome !"
 permalink: /
 header:
-  image: /assets/images/calanques.jpg
+  overlay_image: /assets/images/20250805_162452.jpg
+  overlay_filter: 0.35
 ---
-
-Welcome.
 
 My name is **Maxime Nicaise**. I am an MSc student in Applied Mathematics at *CentraleSupélec* (Université Paris-Saclay), interested in **Optimal Transport**, **Statistical Learning**, and **Functional Analysis**.
 
