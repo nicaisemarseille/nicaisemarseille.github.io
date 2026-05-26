@@ -28,11 +28,3 @@ Research project focusing on the generalization of PDE and Functional Analysis t
 [<i class="fas fa-file-pdf"></i> Last semester slides](/assets/slides_PDE_FR.pdf){: .btn .btn--inverse .btn--small}
 [<i class="fas fa-file-pdf"></i> Second semester report](/assets/report_second_semester_FR.pdf){: .btn .btn--inverse .btn--small}
 [<i class="fas fa-file-pdf"></i> First semester report](/assets/report_first_semester_FR.pdf){: .btn .btn--inverse .btn--small}
-
-## PDE / Modeling project
-<p class="entry-meta">CentraleSupélec, France</p>
-
-This project was carried out during the PDE course, in my first year of studies at CentraleSupélec. The teachers offered the willing students an opportunity to choose a problem of their own, model it with PDEs, and then apply the methods seen in class to solve it. I chose to model the growth of a spy network using a system of partial differential equations, established its well-posedness, and analyzed the influence of various parameters through numerical (finite elements) solutions.
-
-[<i class="fas fa-file-pdf"></i> Project report](/assets/rapport_maxime_nicaise_projet_compagnon-1.pdf){: .btn .btn--inverse .btn--small}
-[<i class="fab fa-github"></i> Notebook](https://github.com/nicaisemarseille/projet_compagnon){: .btn .btn--inverse .btn--small}
