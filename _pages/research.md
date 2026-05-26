@@ -17,14 +17,12 @@ author_profile: true
 ## Internship at INRIA
 <p class="entry-meta">Sophia-Antipolis, France</p>
 
-I am currently pursuing a research internship at INRIA, at the intersection of Applied Mathematics, Machine Learning, and Optimal Transport. More precisely, my work focuses on generalizing entropic optimal transport to the broader class of *f-divergence–regularized* frameworks, with applications in machine learning. The first part of the internship concerns establishing theoretical guarantees, while the second part will focus on designing and implementing efficient algorithms for accelerated computation of Wasserstein distances.
-
-[<i class="fas fa-file-pdf"></i> INRIA research report](https://inria.hal.science/hal-05454647/document){: .btn .btn--inverse .btn--small}
+I pursued a research internship at INRIA, at the intersection of Applied Mathematics, Machine Learning, and Optimal Transport. More precisely, my work focused on generalizing entropic optimal transport to the broader class of *f-divergence–regularized* frameworks, with applications in machine learning. The first part of the internship concerned establishing theoretical guarantees, while the second part focused on designing and implementing efficient algorithms for accelerated computation of Wasserstein distances.
 
 ## Three-semester PDE research project
 <p class="entry-meta">MICS laboratory, CentraleSupélec, France</p>
 
-I met my advisor, Anna Rozanova-Pierrat, of the MICS laboratory during my first year of studies at CentraleSupélec. After a few exchanges, she suggested we start working together on a PDE research project, along with a few fellow students. The main idea behind all the work produced throughout these three semesters was to generalize existing PDE / Functional Analysis theories and results — developed exclusively on smooth boundary domains — to rough boundary domains. During the first semester, the research focused on the Stokes system for fluids in domains with potentially rough, typically fractal boundaries, and established the well-posedness of the problem with Dirichlet boundary conditions. Then during my second year at CentraleSupélec, further work explored theoretical properties of unusual Sobolev spaces, expanding general results like the Hodge decomposition to rough boundary domains. The most recent report is written in English, as it was prepared with a view toward potential publication.
+Research project focusing on the generalization of PDE and Functional Analysis theories to rough boundary domains. Explored the Stokes system for fluids with fractal boundaries to establish well-posedness with Dirichlet conditions, and expanded Hodge decomposition results to rough boundary domains.
 
 [<i class="fas fa-file-pdf"></i> Last semester (EN)](/assets/report_last_semester_EN.pdf){: .btn .btn--inverse .btn--small}
 [<i class="fas fa-file-pdf"></i> Last semester slides](/assets/slides_PDE_FR.pdf){: .btn .btn--inverse .btn--small}
