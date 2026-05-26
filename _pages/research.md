@@ -5,9 +5,16 @@ permalink: /research/
 author_profile: true
 ---
 
-My main research interests have so far revolved around various fields of applied mathematics, and I am now orienting myself more towards **Machine Learning**.
+## Publications and Preprints
 
-## Current Work — Internship at INRIA
+* **M. Nicaise**, Y. Bermudez, and S. M. Perlaza. *"Equivalence of optimal transport problems to regularization on the family of f-divergences"*. IEEE International Symposium on Information Theory (ISIT), Guangzhou, China, 2026.
+  [[arXiv]](https://arxiv.org/abs/2604.12996) [[PDF]](https://arxiv.org/pdf/2604.12996)
+
+* **M. Nicaise**, Y. Bermudez, and S. M. Perlaza. *"On optimal transport with f-divergence regularization"*. Inria Research Report, 2026.
+  [[HAL]](https://inria.hal.science/hal-05454647)
+
+  
+## Internship at INRIA
 <p class="entry-meta">Sophia-Antipolis, France</p>
 
 I am currently pursuing a research internship at INRIA, at the intersection of Applied Mathematics, Machine Learning, and Optimal Transport. More precisely, my work focuses on generalizing entropic optimal transport to the broader class of *f-divergence–regularized* frameworks, with applications in machine learning. The first part of the internship concerns establishing theoretical guarantees, while the second part will focus on designing and implementing efficient algorithms for accelerated computation of Wasserstein distances.
@@ -31,8 +38,3 @@ This project was carried out during the PDE course, in my first year of studies 
 
 [<i class="fas fa-file-pdf"></i> Project report](/assets/rapport_maxime_nicaise_projet_compagnon-1.pdf){: .btn .btn--inverse .btn--small}
 [<i class="fab fa-github"></i> Notebook](https://github.com/nicaisemarseille/projet_compagnon){: .btn .btn--inverse .btn--small}
-
-## Transport and diffusion of a pollutant within an aquifer
-<p class="entry-meta">Lycée International de Valbonne, France</p>
-
-Measured the coefficients of an existing PDE model through experiments. Developed a discrete numerical model based on the measured coefficients and conducted simulations.
