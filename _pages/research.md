@@ -20,7 +20,7 @@ author_profile: true
 ## Internship at INRIA
 <p class="entry-meta">Sophia-Antipolis, France</p>
 
-I pursued a research internship at INRIA, at the intersection of Applied Mathematics, Machine Learning, and Optimal Transport. More precisely, my work focused on generalizing entropic optimal transport to the broader class of *f-divergence–regularized* frameworks, with applications in machine learning. The first part of the internship concerned establishing theoretical guarantees, while the second part focused on designing and implementing efficient algorithms for accelerated computation of Wasserstein distances.
+I pursued a research internship at INRIA, at the intersection of Applied Mathematics, Machine Learning, and Optimal Transport. More precisely, my work focused on entropic optimal transport as well as the broader class of *f-divergence–regularized* frameworks, establishing theoretical correspondances btween these problems. My focus then shifted to the computational aspects of semi-relaxed optimal transport.
 
 ## Three-semester PDE research project
 <p class="entry-meta">MICS laboratory, CentraleSupélec, France</p>
