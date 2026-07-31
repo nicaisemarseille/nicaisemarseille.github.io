@@ -1,8 +1,8 @@
 title: "Maxime Nicaise"
 email: "maxime.nicaise@student-cs.fr"
 description: >-
-  MVA student at ENS Paris-Saclay and engineering student at CentraleSupélec. 
-  Interested in optimal transport, optimization, and machine learning.
+  Personal academic website of Maxime Nicaise, MVA student at ENS Paris-Saclay and engineering student at CentraleSupélec, 
+  working on optimal transport and machine learning.
 linkedin_username: maxime-nicaise-b4312b291
 github_username: nicaisemarseille
 search: false
@@ -26,7 +26,7 @@ plugins:
 author:
   name   : "Maxime Nicaise"
   avatar : "/assets/images/pp_rando2.jpeg"
-  bio    : "MSc, Applied Mathematics — CentraleSupélec (Paris-Saclay). Interested in Machine Learning and Optimal Transport."
+  bio    : "MVA student at ENS Paris-Saclay and engineering student at CentraleSupélec. Interested in optimal transport, optimization, and machine learning."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
