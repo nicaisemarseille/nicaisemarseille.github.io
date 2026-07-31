@@ -18,6 +18,6 @@ I was involved in the instruction of third-year undergraduate students at Centra
 [<i class="fas fa-file-pdf"></i> Example 4](/assets/slides_MR2EDP_nicaise-1.pdf){: .btn .btn--inverse .btn--small}
 
 ## Oral Examiner ("Colleur") — Classes Préparatoires
-<p class="entry-meta">Lycée International de Valbonne, France</p>
+<p class="entry-meta">Lycée International de Valbonne, France · September 2025 – February 2026</p>
 
 Alongside my internship at INRIA, I also served as an oral examiner in second-year *Classes Préparatoires* (France's selective two-year post-secondary programs preparing students for competitive entrance exams to top engineering schools), at Lycée International de Valbonne. My role consisted of conducting weekly oral mathematics examinations (*colles*) with small groups of students, assessing their problem-solving skills, guiding them through advanced exercises, and providing detailed feedback on their reasoning and methods.
