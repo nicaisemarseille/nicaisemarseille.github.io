@@ -8,6 +8,6 @@ header:
   overlay_filter: 0.35
 ---
 
-My name is **Maxime Nicaise**, I am a MSc student in Applied Mathematics at *CentraleSupélec* (Université Paris-Saclay). My interests include *Optimal Transport*, *Statistical Learning*, and *Functional Analysis*. You can explore my work in the sections above.
+My name is **Maxime Nicaise**, I am an Applied Math student at **CentraleSupélec** and in the **M2 Mathematics, Vision and Learning (MVA)** at ENS Paris-Saclay for 2026–2027. My interests include *Optimal Transport*, *Statistical Learning*, and *Functional Analysis*. You can explore my work in the sections above.
 
-I am taking a gap year between the first and second year of my master studies to explore different professional environments. After a first research internship in France from September 2025 to February 2026, at INRIA in *Optimal Transport*, I am currently an AI researcher intern at Hypertrade Co. Ltd in Bangkok, since March 2026.
+During my 2025–2026 gap year, I completed a six-month research internship at **Inria Sophia Antipolis**, where I worked on structural and computational questions in regularized optimal transport. I am currently completing an industry internship at **Hypertrade** in Bangkok, working on retail forecasting and machine-learning systems.
