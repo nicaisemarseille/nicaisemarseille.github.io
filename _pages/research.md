@@ -11,7 +11,7 @@ author_profile: true
   [[HAL]](https://inria.hal.science/hal-05635975) [[GitHub]](https://github.com/nicaisemarseille/stabilized-sinkhorn-srot)
 
 * **M. Nicaise**, Y. Bermudez, and S. M. Perlaza. *"Equivalence of optimal transport problems to regularization on the family of f-divergences"*. IEEE International Symposium on Information Theory (ISIT), Guangzhou, China, 2026.
-  [[arXiv]](https://arxiv.org/abs/2604.12996)
+  [[arXiv]](https://arxiv.org/abs/2604.12996) [[IEEE]](https://ieeexplore.ieee.org/document/11653750)
   
 * **M. Nicaise**, Y. Bermudez, and S. M. Perlaza. *"On optimal transport with f-divergence regularization"*. Inria Research Report, 2026.
   [[HAL]](https://inria.hal.science/hal-05454647)
