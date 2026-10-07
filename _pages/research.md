@@ -17,6 +17,14 @@ author_profile: true
   [[HAL]](https://inria.hal.science/hal-05454647)
 
   
+## Feature-Map Resolution Continuation in CNN Training
+<p class="entry-meta">CentraleSupélec, France</p>
+
+Joint work with I. El khamlichi, A. Charley, A. Corrard and J. Gabet. We study a simple training intervention for convolutional image classifiers: feature maps are processed at a lower spatial resolution early in training, and the native resolution is restored step by step before the end, so the final network is unchanged. The report measures its effect across datasets, architectures, optimizers and training budgets, compares it with feature-map smoothing and with two methods from the literature, and examines whether loss-geometry diagnostics account for the gains.
+
+[<i class="fas fa-file-pdf"></i> Technical report](/assets/report_feature_map_resolution_continuation.pdf){: .btn .btn--inverse .btn--small}
+[<i class="fab fa-github"></i> Repository](https://github.com/nicaisemarseille/resolutioncontinuation){: .btn .btn--inverse .btn--small}
+
 ## Internship at INRIA
 <p class="entry-meta">Sophia-Antipolis, France</p>
 
