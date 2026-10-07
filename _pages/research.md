@@ -20,7 +20,7 @@ author_profile: true
 ## Feature-Map Resolution Continuation in CNN Training
 <p class="entry-meta">CentraleSupélec, France</p>
 
-Joint work with CentraleSupélec students I. El khamlichi, A. Charley, A. Corrard under the supervision of J. Gabet, a PhD student at L2S. We study a simple training intervention for convolutional image classifiers. The feature maps are processed at a lower spatial resolution early in training, and the native resolution is restored step by step before the end, so the final network is unchanged. The report measures the effect across different datasets, architectures, optimizers and training budgets, compares it with feature-map smoothing and with two methods from the literature, and examines whether loss-geometry diagnostics account for the gains.
+Joint work with CentraleSupélec students Idriss El khamlichi, Aubin Charley, Alexandre Corrard under the supervision of Joseph Gabet, a PhD student at L2S. We study a simple training intervention for convolutional image classifiers. The feature maps are processed at a lower spatial resolution early in training, and the native resolution is restored step by step before the end, so the final network is unchanged. The report measures the effect across different datasets, architectures, optimizers and training budgets, compares it with feature-map smoothing and with two methods from the literature, and examines whether loss-geometry diagnostics account for the gains.
 
 [<i class="fas fa-file-pdf"></i> Report](/assets/report_feature_map_resolution_continuation.pdf){: .btn .btn--inverse .btn--small}
 [<i class="fab fa-github"></i> Repository](https://github.com/nicaisemarseille/resolutioncontinuation){: .btn .btn--inverse .btn--small}
