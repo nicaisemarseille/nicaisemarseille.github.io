@@ -25,7 +25,7 @@ plugins:
 
 author:
   name   : "Maxime Nicaise"
-  avatar : "/assets/images/pp_rando2.jpeg"
+  avatar : "/assets/images/pp_hanoi.jpg"
   bio    : "MVA student at ENS Paris-Saclay and engineering student at CentraleSupélec. Interested in optimal transport, optimization, and machine learning."
   links:
     - label: "Website"
@@ -63,6 +63,7 @@ defaults:
       header:
         overlay_image: /assets/images/20250805_162452.jpg
         overlay_filter: 0.35
+        caption: "Calanques de Cassis"
 
 category_archive:
   type: liquid
