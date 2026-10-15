@@ -5,6 +5,12 @@ search: false
 
 @charset "utf-8";
 
+/* Explicit web font: the theme's default stack starts with Roboto, and a
+   locally installed Roboto on Windows renders every paragraph as if bold. */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap");
+
+$sans-serif: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
