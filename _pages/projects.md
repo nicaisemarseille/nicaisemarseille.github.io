@@ -35,7 +35,6 @@ Beyond my research activities, I have also worked on a number of non-academic pr
     <span class="card-meta">PDE course · CentraleSupélec</span>
     <h3 class="card-title">Modeling a Spy Network with PDEs</h3>
     <p>Carried out during the PDE course in my first year at CentraleSupélec, where students were free to choose a problem of their own and model it with PDEs. I chose to model the growth of a spy network using a system of partial differential equations, established its well-posedness, and analyzed the influence of various parameters through numerical (finite elements) solutions.</p>
-    <div class="tags"><span>PDE</span><span>modeling</span></div>
     <div class="links">
       <a href="/assets/rapport_maxime_nicaise_projet_compagnon-1.pdf"><i class="fas fa-file-pdf"></i>Report</a>
       <a href="https://github.com/nicaisemarseille/projet_compagnon"><i class="fab fa-github"></i>Notebook</a>
