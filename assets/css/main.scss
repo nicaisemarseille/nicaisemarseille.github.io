@@ -79,6 +79,190 @@ $sans-serif: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   }
 }
 
+/* =========================================================
+   Academic list (Research, Teaching) and card grid (Projects)
+   ========================================================= */
+.page__content {
+  /* Small uppercase label introducing a block of entries */
+  .section-label {
+    margin: 2.4em 0 0.9em;
+    padding: 0;
+    border: none;
+    font-size: 0.78em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #8a8a8a;
+  }
+
+  > .section-label:first-child {
+    margin-top: 0.5em;
+  }
+
+  /* Discreet text links (PDF, arXiv, code...) replacing big buttons */
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25em 1.1em;
+    margin-top: 0.35em;
+    font-size: 0.85em;
+
+    a {
+      border-bottom: none;
+      white-space: nowrap;
+
+      i { margin-right: 0.3em; opacity: 0.75; }
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+
+  /* Numbered publication list */
+  .pub-list {
+    list-style: none;
+    counter-reset: pub;
+    margin: 0;
+    padding: 0;
+
+    > li {
+      counter-increment: pub;
+      position: relative;
+      margin: 0 0 1.1em;
+      padding-left: 2.2em;
+      line-height: 1.5;
+
+      &::before {
+        content: "[" counter(pub) "]";
+        position: absolute;
+        left: 0;
+        color: #8a8a8a;
+        font-size: 0.9em;
+      }
+    }
+
+    .pub-title { font-weight: 600; }
+
+    .pub-meta {
+      display: block;
+      color: #6a6a6a;
+      font-size: 0.92em;
+    }
+  }
+
+  /* Two-column rows: date / place on the left, content on the right */
+  .entry-list {
+    border-top: 1px solid #e6e6e6;
+  }
+
+  .entry {
+    display: grid;
+    grid-template-columns: 8em minmax(0, 1fr);
+    gap: 0 1.6em;
+    padding: 1.1em 0;
+    border-bottom: 1px solid #efefef;
+
+    .entry-when {
+      color: #8a8a8a;
+      font-size: 0.85em;
+      line-height: 1.5;
+      padding-top: 0.15em;
+    }
+
+    .entry-title {
+      display: block;
+      margin-bottom: 0.25em;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.95em;
+      line-height: 1.65;
+    }
+  }
+
+  /* Card grid */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.1em;
+    margin-top: 1.4em;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.1em 1.2em 1em;
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    background: #fff;
+    transition: border-color 0.15s ease;
+
+    &:hover { border-color: #cfcfcf; }
+
+    .card-meta {
+      color: #8a8a8a;
+      font-size: 0.78em;
+      letter-spacing: 0.02em;
+    }
+
+    .card-title {
+      margin: 0.3em 0 0.5em;
+      font-size: 1.02em;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+
+    p {
+      flex: 1;
+      margin: 0 0 0.8em;
+      font-size: 0.86em;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35em;
+      margin-bottom: 0.6em;
+
+      span {
+        padding: 0.1em 0.65em;
+        border-radius: 999px;
+        background: #eef3f8;
+        color: #3d5a78;
+        font-size: 0.72em;
+      }
+    }
+
+    .links { margin-top: 0; }
+  }
+
+  /* Below the theme's large breakpoint the content column is narrow:
+     put the date / place line above the title instead of beside it */
+  @media (max-width: 1023px) {
+    .entry {
+      grid-template-columns: minmax(0, 1fr);
+
+      .entry-when { margin-bottom: 0.3em; }
+    }
+  }
+
+  @media (max-width: 700px) {
+    .card-grid { grid-template-columns: minmax(0, 1fr); }
+  }
+}
+
+/* The theme keeps an empty right-hand column for a table of contents;
+   give that space back to the list and card-grid pages */
+@media (min-width: 1024px) {
+  .page:has(.card-grid, .entry-list) {
+    padding-right: 0;
+  }
+}
+
 /* Overlay banner used on every page: photo + page title on the left */
 .page__hero--overlay {
   padding: 4.5em 0;
