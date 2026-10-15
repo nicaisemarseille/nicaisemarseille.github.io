@@ -1,7 +1,8 @@
 /* Optimal transport between point clouds, looping on the home page.
    Each cloud is matched to the next by an exact assignment (Hungarian
    algorithm, squared Euclidean cost); points then move along straight
-   lines, i.e. McCann's displacement interpolation. */
+   lines, i.e. McCann's displacement interpolation.
+   The loop ends on a dolphin before starting over. */
 (function () {
   var box = document.querySelector('.home-ot');
   if (!box) return;
@@ -24,6 +25,28 @@
     return Math.sqrt(-2 * Math.log(u)) * Math.cos(2 * Math.PI * v);
   }
   function jitter(s) { return (Math.random() - 0.5) * s; }
+
+  /* N points evenly spaced along an SVG path, fitted into [-0.85, 0.85]^2 */
+  function samplePath(d) {
+    var ns = 'http://www.w3.org/2000/svg';
+    var svg = document.createElementNS(ns, 'svg');
+    svg.setAttribute('style', 'position:absolute;width:0;height:0;overflow:hidden');
+    var el = document.createElementNS(ns, 'path');
+    el.setAttribute('d', d);
+    svg.appendChild(el);
+    document.body.appendChild(svg);
+    var len = el.getTotalLength(), pts = [];
+    for (var i = 0; i < N; i++) {
+      var q = el.getPointAtLength((i + 0.5) / N * len);
+      pts.push([q.x, -q.y]);
+    }
+    document.body.removeChild(svg);
+    var xs = pts.map(function (q) { return q[0]; }), ys = pts.map(function (q) { return q[1]; });
+    var x0 = Math.min.apply(null, xs), x1 = Math.max.apply(null, xs);
+    var y0 = Math.min.apply(null, ys), y1 = Math.max.apply(null, ys);
+    var k = 1.7 / Math.max(x1 - x0, y1 - y0);
+    return pts.map(function (q) { return [(q[0] - (x0 + x1) / 2) * k, (q[1] - (y0 + y1) / 2) * k]; });
+  }
 
   var shapes = [
     function blob() {
@@ -56,14 +79,15 @@
       }
       return p;
     },
-    function fish() {
-      /* the classical "fish curve" */
-      var p = [];
-      for (var i = 0; i < N; i++) {
-        var t = 2 * Math.PI * i / N, s = Math.sin(t), c = Math.cos(t);
-        p.push([0.82 * (c - s * s / Math.SQRT2) - 0.05, 0.82 * c * s]);
-      }
-      return p;
+    function dolphin() {
+      /* dolphin facing right (beak, rounded melon, curved dorsal fin),
+         sampled evenly along its outline */
+      return samplePath(
+        'M196 66 C190 63 186 62 182 61 C178 52 172 46 160 42 C140 36 120 35 106 37 ' +
+        'C100 28 92 18 82 13 C86 22 88 32 92 41 C72 47 54 56 40 66 C32 60 22 54 12 50 ' +
+        'C17 58 21 64 25 70 C20 76 15 82 12 90 C24 84 34 78 44 74 C64 78 92 80 118 78 ' +
+        'C114 86 108 93 102 100 C114 96 124 88 130 78 C150 76 170 72 184 69 C188 68 192 67 196 66 Z'
+      );
     }
   ];
 
@@ -159,13 +183,46 @@
       X = Y;
       next();
     }
-    if (!still) requestAnimationFrame(frame);
+    rafId = requestAnimationFrame(frame);
+  }
+
+  /* ---------- run only while visible ---------- */
+  var onScreen = true, rafId = 0, pausedAt = 0;
+
+  function shouldRun() {
+    return onScreen && !document.hidden && canvas.offsetParent !== null;
+  }
+
+  function update() {
+    var now = performance.now();
+    if (shouldRun() && !rafId) {
+      start += now - pausedAt;
+      rafId = requestAnimationFrame(frame);
+    } else if (!shouldRun() && rafId) {
+      cancelAnimationFrame(rafId);
+      rafId = 0;
+      pausedAt = now;
+    }
   }
 
   var still = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   next();
 
   /* Reduced motion: one still frame showing a transport plan */
-  if (still) frame(start + PLAN * 0.99);
-  else requestAnimationFrame(frame);
+  if (still) {
+    frame(start + PLAN * 0.99);
+    cancelAnimationFrame(rafId);
+    return;
+  }
+
+  pausedAt = performance.now();
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function (entries) {
+      onScreen = entries[0].isIntersecting;
+      update();
+    }).observe(canvas);
+  }
+  document.addEventListener('visibilitychange', update);
+  window.addEventListener('resize', update);
+  update();
 })();

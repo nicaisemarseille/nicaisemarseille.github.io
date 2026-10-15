@@ -53,7 +53,7 @@ author_profile: true
     <div class="entry-when">Inria, Sophia-Antipolis, France</div>
     <div>
       <span class="entry-title">Research internship: regularized optimal transport</span>
-      <p>I pursued a research internship at INRIA, at the intersection of Applied Mathematics, Machine Learning, and Optimal Transport. More precisely, my work focused on entropic optimal transport as well as the broader class of <em>f-divergence–regularized</em> frameworks, establishing theoretical correspondences between these problems. My focus then shifted to the computational aspects of semi-relaxed optimal transport.</p>
+      <p>I pursued a research internship at INRIA, at the intersection of Applied Mathematics, Machine Learning, and Optimal Transport. My work there focused on regularized transport, with a first topic on f-divergence regularized OT. We established theoretical correspondences between different f-divergence regularization schemes for OT. My focus then shifted to the computational aspects of a specific class of unbalanced transport, semi-relaxed optimal transport. We studied the theoretical properties of the Sinkhorn iterations for this problem, as well as its statistical aspects.</p>
     </div>
   </div>
 
@@ -61,7 +61,7 @@ author_profile: true
     <div class="entry-when">MICS laboratory, CentraleSupélec</div>
     <div>
       <span class="entry-title">Three-semester PDE research project</span>
-      <p>Research project focusing on the generalization of PDE and Functional Analysis theories to rough boundary domains. Explored the Stokes system for fluids with fractal boundaries to establish well-posedness with Dirichlet conditions, and expanded Hodge decomposition results to rough boundary domains.</p>
+      <p>Our research project focused on the generalization of PDE and Functional Analysis results to rough boundary domains. We proved well posedness of the Stokes system with Dirichlet conditions, on domains with non smooth boundaries. We then went and expanded Hodge decomposition results to rough boundary domains too.</p>
       <div class="links">
         <a href="/assets/report_last_semester_EN.pdf"><i class="fas fa-file-pdf"></i>Last semester (EN)</a>
         <a href="/assets/slides_PDE_FR.pdf"><i class="fas fa-file-pdf"></i>Last semester slides</a>
