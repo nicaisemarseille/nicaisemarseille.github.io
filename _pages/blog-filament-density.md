@@ -3,13 +3,13 @@ title: "Is a filament of points dense?"
 excerpt: "A remark on the balls hidden inside HDBSCAN"
 permalink: /blog/filament-density/
 date: 2026-10-21
-toc: true
-toc_label: "Contents"
-toc_sticky: true
+header:
+  overlay_image: false
 classes: blog-post
 ---
 
-<p class="entry-meta">Maxime Nicaise · 2026-10-21</p>
+<p class="blog-lead">A remark on the balls hidden inside HDBSCAN</p>
+<p class="entry-meta">Maxime Nicaise · October 2026</p>
 
 Density based clustering aims at defining clusters where the points are most packed, and separates these clusters by regions where points are sparse. To do this, a density based clustering algorithm has to estimate how "packed" a region is, locally. In this note, the focus is on the way the HDBSCAN algorithm does this, in dimension 2. 
 

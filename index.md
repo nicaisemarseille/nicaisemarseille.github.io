@@ -16,7 +16,6 @@ During my 2025–2026 gap year, I completed a six-month research internship at I
 <!-- Latest blog post, in the free right-hand column -->
 <aside class="home-note">
   <p class="home-note__label">Blog</p>
-  <a class="home-note__thumb" href="/blog/filament-density/"><img src="/assets/blog/filament-density/fig_ball.png" alt="A ball around a point of a thin band of points"></a>
   <a class="home-note__title" href="/blog/filament-density/">Is a filament of points dense?</a>
   <p class="home-note__lead">A remark on the balls hidden inside HDBSCAN.</p>
 </aside>
