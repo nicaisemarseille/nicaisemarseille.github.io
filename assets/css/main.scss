@@ -303,23 +303,19 @@ $sans-serif: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   }
 }
 
-/* Blog posts: title without photo banner, centered figures, tables, references */
-.blog-post .page__title {
-  margin-top: 0.2em;
-  font-size: 2em;
-  font-weight: 600;
-  line-height: 1.25;
+/* Blog posts: no table of contents, so give part of the empty right-hand
+   column back to the text (the theme reserves 200px, then 300px) */
+@media (min-width: 1024px) {
+  .blog-post .page { padding-inline-end: 100px; }
 }
 
-.blog-post .page__content {
-  .blog-lead {
-    margin: -0.4em 0 0.2em;
-    color: #555;
-    font-size: 1.15em;
-    font-style: italic;
-  }
+@media (min-width: 1280px) {
+  .blog-post .page { padding-inline-end: 150px; }
+}
 
-  .entry-meta { margin: 0 0 2em; }
+/* Blog posts: centered figures, readable tables and references */
+.blog-post .page__content {
+  .entry-meta { margin: 0 0 1.6em; }
 
   img.blog-fig {
     display: block;
