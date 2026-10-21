@@ -315,6 +315,13 @@ $sans-serif: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 
 /* Blog posts: centered figures, readable tables and references */
 .blog-post .page__content {
+  .blog-lead {
+    margin: 0 0 0.2em;
+    color: #555;
+    font-size: 1.15em;
+    font-style: italic;
+  }
+
   .entry-meta { margin: 0 0 1.6em; }
 
   img.blog-fig {
