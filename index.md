@@ -13,9 +13,10 @@ My name is **Maxime Nicaise**, I am an Applied Math student at CentraleSupélec 
 
 During my 2025–2026 gap year, I completed a six-month research internship at Inria Sophia Antipolis, where I worked on regularized transport. I then pursued an industry internship at Hypertrade in Bangkok, working on retail forecasting and machine-learning systems. I am now enjoying my last year of studies to deepen my knowledge of theoretical Machine Learning as a whole, and preparing for a PhD !
 
-<!-- Optimal transport animation in the free right-hand column (assets/js/ot-anim.js) -->
-<figure class="home-ot" aria-hidden="true">
-  <canvas width="230" height="230"></canvas>
-  <figcaption>Optimal transport between point clouds: each point follows the plan minimizing total squared distance.</figcaption>
-</figure>
-<script src="/assets/js/ot-anim.js" defer></script>
+<!-- Latest blog post, in the free right-hand column -->
+<aside class="home-note">
+  <p class="home-note__label">Blog</p>
+  <a class="home-note__thumb" href="/blog/filament-density/"><img src="/assets/blog/filament-density/fig_ball.png" alt="A ball around a point of a thin band of points"></a>
+  <a class="home-note__title" href="/blog/filament-density/">Is a filament of points dense?</a>
+  <p class="home-note__lead">A remark on the balls hidden inside HDBSCAN.</p>
+</aside>

@@ -263,48 +263,83 @@ $sans-serif: "Source Sans 3", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   }
 }
 
-/* Home page: optimal transport animation (assets/js/ot-anim.js).
-   On narrow screens it sits centered below the text; on wide screens it
-   moves into the empty right-hand column the theme reserves next to the
-   text (.page__content is the positioned parent). */
-.home-ot {
-  width: 210px;
-  margin: 2.2em auto 0;
+/* Home page: latest blog post. On narrow screens it sits below the text;
+   on wide screens it moves into the empty right-hand column the theme
+   reserves next to the text (.page__content is the positioned parent). */
+.page__content .home-note {
+  width: 100%;
+  max-width: 320px;
+  margin: 2.4em auto 0;
+  padding: 0.9em 1em 1em;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  background: #fff;
 
-  canvas {
-    display: block;
-    width: 210px;
-    height: 210px;
+  .home-note__label {
+    margin: 0 0 0.6em;
+    color: #8a8a8a;
+    font-size: 0.7em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
   }
 
-  figcaption {
+  .home-note__thumb {
+    display: block;
+    border-bottom: none;
+
+    img { display: block; width: 100%; border-radius: 4px; }
+  }
+
+  .home-note__title {
+    display: block;
     margin-top: 0.6em;
-    color: #8a8a8a;
-    font-family: inherit;
-    font-size: 0.7em;
+    border-bottom: none;
+    font-size: 0.95em;
+    font-weight: 600;
+    line-height: 1.35;
+
+    &:hover { text-decoration: underline; }
+  }
+
+  .home-note__lead {
+    margin: 0.3em 0 0;
+    color: #6a6a6a;
+    font-size: 0.78em;
     font-style: italic;
     line-height: 1.45;
-    text-align: center;
   }
 }
 
 @media (min-width: 1280px) {
-  .home-ot {
+  .page__content .home-note {
     position: absolute;
     top: 0.5em;
     left: calc(100% + 2.5em);
-    width: 230px;
+    width: 250px;
     margin: 0;
+  }
+}
 
-    canvas {
-      width: 230px;
-      height: 230px;
-    }
+/* Blog posts: centered figures, readable tables and references */
+.blog-post .page__content {
+  img.blog-fig {
+    display: block;
+    margin: 1.4em auto;
+    max-width: 100%;
+  }
 
-    figcaption {
-      font-size: 0.66em;
-      text-align: left;
-    }
+  table {
+    display: table;
+    width: 100%;
+    font-size: 0.82em;
+  }
+
+  [id^="ref-"] { scroll-margin-top: 4em; }
+
+  mjx-container[display="true"] {
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 }
 
