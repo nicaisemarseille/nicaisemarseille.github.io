@@ -40,7 +40,7 @@ author_profile: true
   <div class="entry">
       <div class="entry-when">CMAP, France</div>
       <div>
-        <span class="entry-title">Generative models via JKO schemes for Sinkhorn divergences, and their connections to Sinkhorn drifting</span>
+        <span class="entry-title">Wasserstein gradient flows and drifting</span>
         <p>We study the connections between Sinkhorn-drifting
 generative models and Wasserstein gradient flows for the Sinkhorn divergence with implicit JKO discretization.</p>
     </div>
