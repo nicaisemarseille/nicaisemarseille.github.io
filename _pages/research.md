@@ -41,11 +41,8 @@ author_profile: true
       <div class="entry-when">CMAP, France</div>
       <div>
         <span class="entry-title">Generative models via JKO schemes for Sinkhorn divergences, and their connections to Sinkhorn drifting</span>
-        <p>We study blab.</p>
-      <div class="links">
-        <a href="/assets/report_feature_map_resolution_continuation.pdf"><i class="fas fa-file-pdf"></i>Report</a>
-        <a href="https://github.com/nicaisemarseille/resolutioncontinuation"><i class="fab fa-github"></i>Code</a>
-      </div>
+        <p>We study the connections between Sinkhorn-drifting
+generative models and Wasserstein gradient flows for the Sinkhorn divergence with implicit JKO discretization.</p>
     </div>
   </div>
   
