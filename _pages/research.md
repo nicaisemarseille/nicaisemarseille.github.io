@@ -37,11 +37,11 @@ author_profile: true
 
 <div class="entry-list">
 
-    <div class="entry">
-    <div class="entry-when">CMAP, France</div>
-    <div>
-      <span class="entry-title">Generative models via JKO schemes for Sinkhorn divergences, and their connections to Sinkhorn drifting</span>
-      <p>We study blab.</p>
+  <div class="entry">
+      <div class="entry-when">CMAP, France</div>
+      <div>
+        <span class="entry-title">Generative models via JKO schemes for Sinkhorn divergences, and their connections to Sinkhorn drifting</span>
+        <p>We study blab.</p>
       <div class="links">
         <a href="/assets/report_feature_map_resolution_continuation.pdf"><i class="fas fa-file-pdf"></i>Report</a>
         <a href="https://github.com/nicaisemarseille/resolutioncontinuation"><i class="fab fa-github"></i>Code</a>
