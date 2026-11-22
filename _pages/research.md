@@ -50,9 +50,10 @@ generative models and Wasserstein gradient flows for the Sinkhorn divergence wit
     <div class="entry-when">CentraleSupélec, France</div>
     <div>
       <span class="entry-title">Feature-Map Resolution Continuation in CNN Training</span>
-      <p>Joint work with CentraleSupélec students Idriss El khamlichi, Aubin Charley, Alexandre Corrard under the supervision of Joseph Gabet, a PhD student at L2S. We study a simple training intervention for convolutional image classifiers. The feature maps are processed at a lower spatial resolution early in training, and the native resolution is restored step by step before the end, so the final network is unchanged. The report measures the effect across different datasets, architectures, optimizers and training budgets, compares it with feature-map smoothing and with two methods from the literature, and examines whether loss-geometry diagnostics account for the gains.</p>
+      <p>Joint work with CentraleSupélec students Idriss El khamlichi, Aubin Charley, Alexandre Corrard under the supervision of Joseph Gabet, a PhD student at L2S. We study a simple training intervention for convolutional image classifiers. The feature maps are processed at a lower spatial resolution early in training, and the native resolution is restored step by step before the end, so the final network is unchanged. The report measures the effect across different datasets, architectures, optimizers and training budgets, compares it with feature-map smoothing and with two methods from the literature, and examines whether loss-geometry diagnostics account for the gains. We presented the work at the AI & One health co-creation workshop in CentraleSupélec on November 20, 2026.</p>
       <div class="links">
         <a href="/assets/report_feature_map_resolution_continuation.pdf"><i class="fas fa-file-pdf"></i>Report</a>
+        <a href="/assets/poster_A0.pdf"><i class="fas fa-file-pdf"></i>Poster</a>
         <a href="https://github.com/nicaisemarseille/resolutioncontinuation"><i class="fab fa-github"></i>Code</a>
       </div>
     </div>
